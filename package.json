@@ -1,0 +1,19 @@
+{
+  "name": "simple-todos",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint --silent",
+    "start": "meteor run"
+  },
+  "eslintConfig": {
+    "extends": "@meteorjs/eslint-config-meteor"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.42",
+    "classnames": "^2.2.5",
+    "meteor-node-stubs": "^0.3.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
